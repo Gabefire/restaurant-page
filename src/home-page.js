@@ -1,6 +1,6 @@
 import locationIcon from "./map-marker.svg";
 import timeIcon from "./clock.svg";
-import "./style.css";
+import "./home.css";
 
 export default function makeHomePage() {
   const headingText = "Italian Town";
@@ -17,16 +17,21 @@ export default function makeHomePage() {
   const homeLi = document.createElement("li");
   const homeBtn = document.createElement("button");
   homeBtn.textContent = "Home";
+  homeBtn.id = "homeBtn";
+  homeBtn.style.color = "#800000";
+  homeBtn.disabled = true;
   homeLi.appendChild(homeBtn);
   list.appendChild(homeLi);
   const menuLi = document.createElement("li");
   const menuBtn = document.createElement("button");
   menuBtn.textContent = "Menu";
+  menuBtn.id = "menuBtn";
   menuLi.appendChild(menuBtn);
   list.appendChild(menuLi);
   const contactLi = document.createElement("li");
   const contactBtn = document.createElement("button");
   contactBtn.textContent = "Contact";
+  contactBtn.id = "contactBtn";
   contactLi.appendChild(contactBtn);
   list.appendChild(contactLi);
 

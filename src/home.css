@@ -42,12 +42,6 @@ body {
   margin: 0;
 }
 
-.header ul li:first-child button,
-.header ul li:first-child button:hover {
-  color: #800000;
-  cursor: default;
-}
-
 .intro {
   width: 25%;
   margin-right: auto;
