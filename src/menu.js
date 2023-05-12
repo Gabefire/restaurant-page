@@ -6,6 +6,7 @@ import "./menu.css";
 
 export default function makeMenuPage() {
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   const header = document.createElement("div");
   header.className = "header";

@@ -8,6 +8,7 @@ export default function makeHomePage() {
     "Welcome to Italian Town, where culinary excellence and passion come together to create a truly magnificent dining experience. As you step inside, you are immediately embraced by the warm, inviting ambiance that sets the stage for a memorable journey of flavors and aromas.";
 
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   const header = document.createElement("div");
   header.className = "header";
